@@ -13,7 +13,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Continued development](#continued-development)
 - [Author](#author)
 
-
 ## Overview
 
 ### Screenshot
@@ -29,7 +28,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [Github - QR CODE CHALLENGE](https://github.com/erickystn/qrcode-challenge)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Vercel](https://qrcode-challenge-psi.vercel.app/)
 
 ## My process
 
@@ -73,8 +72,6 @@ html {
 }
 ```
 
-
-
 ### Continued development
 
 I plan to keep challenging myself by not only continuing my studies but also putting all the acquired knowledge into practice, especially in more complex projects. I might even consider using a CSS superset along the way.
@@ -83,4 +80,3 @@ I plan to keep challenging myself by not only continuing my studies but also put
 
 - Website - [Ericky GitHub](https://github.com/erickystn/)
 - Frontend Mentor - [@erickystn](https://www.frontendmentor.io/profile/erickystn)
-
