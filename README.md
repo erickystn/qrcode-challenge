@@ -1,49 +1,51 @@
-# Frontend Mentor - QR code component solution
+# Frontend Mentor - Solução do desafio QR Code Component
 
 <br />
 
 <div align="center">
 
-[![Deploy na Vercel](https://img.shields.io/badge/Vercel-Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://qrcode-challenge-psi.vercel.app/)
-[![Frontend Mentor](https://img.shields.io/badge/Frontend_Mentor-Challenge-3F54A3?style=for-the-badge&logo=frontendmentor&logoColor=white)](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
-[![HTML5](https://img.shields.io/badge/HTML5-Semântico-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-Custom_Properties-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+[![Deploy na Vercel](https://img.shields.io/badge/Vercel-Live_Demo-000000?style=for-the-badge\&logo=vercel\&logoColor=white)](https://qrcode-challenge-psi.vercel.app/)
+[![Frontend Mentor](https://img.shields.io/badge/Frontend_Mentor-Challenge-3F54A3?style=for-the-badge\&logo=frontendmentor\&logoColor=white)](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
+[![HTML5](https://img.shields.io/badge/HTML5-Semântico-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-Custom_Properties-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 [![Flexbox](https://img.shields.io/badge/Layout-Flexbox-264DE4?style=for-the-badge)](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-[![Google Fonts](https://img.shields.io/badge/Font-Outfit-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/Outfit)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![Google Fonts](https://img.shields.io/badge/Font-Outfit-4285F4?style=for-the-badge\&logo=googlefonts\&logoColor=white)](https://fonts.google.com/specimen/Outfit)
+[![Licença: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge)](#)
 
 </div>
 
 ---
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+Este projeto é uma solução para o desafio [QR code component do Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Os desafios do Frontend Mentor têm como objetivo aprimorar as habilidades de desenvolvimento por meio da construção de projetos baseados em situações reais.
 
 ---
 
 ## Tabela de Conteúdos
 
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [Design Specifications & Variables](#design-specifications--variables)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-- [Architecture & File Structure](#architecture--file-structure)
-- [Component Workflow](#component-workflow)
-- [How to Run Locally](#how-to-run-locally)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [Author](#author)
-- [License](#license)
+* [Visão Geral](#visão-geral)
+
+  * [Capturas de Tela](#capturas-de-tela)
+  * [Links](#links)
+* [Processo de Desenvolvimento](#processo-de-desenvolvimento)
+
+  * [Tecnologias Utilizadas](#tecnologias-utilizadas)
+  * [Especificações de Design e Variáveis](#especificações-de-design-e-variáveis)
+  * [O que Aprendi](#o-que-aprendi)
+  * [Desenvolvimento Contínuo](#desenvolvimento-contínuo)
+* [Arquitetura e Estrutura de Arquivos](#arquitetura-e-estrutura-de-arquivos)
+* [Fluxo do Componente](#fluxo-do-componente)
+* [Como Executar Localmente](#como-executar-localmente)
+* [Roadmap](#roadmap)
+* [Contribuição](#contribuição)
+* [Autor](#autor)
+* [Licença](#licença)
 
 ---
 
-## Overview
+## Visão Geral
 
-### Screenshot
+### Capturas de Tela
 
 #### Desktop
 
@@ -53,7 +55,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   <br />
 
   <div align="center">
-    <img src="./design/screenshot-desktop.JPG" alt="Desktop" width="650px" />
+    <img src="./design/screenshot-desktop.JPG" alt="Visualização desktop" width="650px" />
   </div>
 
 </details>
@@ -68,7 +70,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   <br />
 
   <div align="center">
-    <img src="./design/screenshot.JPG" alt="Mobile" width="320px" />
+    <img src="./design/screenshot.JPG" alt="Visualização mobile" width="320px" />
   </div>
 
 </details>
@@ -77,52 +79,56 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Github - QR CODE CHALLENGE](https://github.com/erickystn/qrcode-challenge)
-- Live Site URL: [Vercel](https://qrcode-challenge-psi.vercel.app/)
+* **Repositório:** [GitHub - QR Code Challenge](https://github.com/erickystn/qrcode-challenge)
+* **Aplicação publicada:** [Vercel](https://qrcode-challenge-psi.vercel.app/)
 
 ---
 
-## My process
+## Processo de Desenvolvimento
 
-### Built with
+### Tecnologias Utilizadas
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- Mobile-first workflow
-- Vanilla CSS
+* HTML5 semântico
+* Propriedades personalizadas do CSS (CSS Custom Properties)
+* Flexbox
+* Abordagem Mobile First
+* CSS puro (Vanilla CSS)
 
-### Design Specifications & Variables
+### Especificações de Design e Variáveis
 
-| Recurso / Elemento | Especificação Técnica | Valor / Código |
-| :--- | :--- | :--- |
-| **Escala de Rem** | `html { font-size: 62.5%; }` | `1rem` = `10px` (facilita cálculos responsivos de tipografia e espaçamento) |
-| **Tipografia Principal** | Google Font **Outfit** | Pesos `400` (corpo de texto) e `700` (título principal) |
-| **Cor de Fundo (Página)** | `--light-gray` | `hsl(212, 45%, 89%)` |
-| **Cor do Card** | `--white` | `hsl(0, 0%, 100%)` com `border-radius: 1.5rem` |
-| **Cor do Título (H1)** | `--dark-blue` | `hsl(218, 44%, 22%)` com `font-size: 2rem` |
-| **Cor da Descrição (P)** | `--grayish-blue` | `hsl(220, 15%, 55%)` com `font-size: 1.4rem` |
+| Recurso / Elemento         | Especificação Técnica        | Valor / Código                                                    |
+| :------------------------- | :--------------------------- | :---------------------------------------------------------------- |
+| **Escala de Rem**          | `html { font-size: 62.5%; }` | `1rem` = `10px`, facilitando cálculos de tipografia e espaçamento |
+| **Tipografia Principal**   | Google Font **Outfit**       | Pesos `400` (corpo de texto) e `700` (título principal)           |
+| **Cor de Fundo da Página** | `--light-gray`               | `hsl(212, 45%, 89%)`                                              |
+| **Cor do Card**            | `--white`                    | `hsl(0, 0%, 100%)` com `border-radius: 1.5rem`                    |
+| **Cor do Título (H1)**     | `--dark-blue`                | `hsl(218, 44%, 22%)` com `font-size: 2rem`                        |
+| **Cor da Descrição (P)**   | `--grayish-blue`             | `hsl(220, 15%, 55%)` com `font-size: 1.4rem`                      |
 
 ---
 
-### What I learned
+### O que Aprendi
 
-In this challenge, I was able to recall some good CSS styling practices, making the code less verbose by separating parts of the CSS to enhance readability. Additionally, I combined sections that shared common code in order to avoid unnecessary code duplication.
+Neste desafio, pude relembrar boas práticas de estilização com CSS e tornar o código mais enxuto, separando diferentes responsabilidades para melhorar sua organização e legibilidade.
 
-To see how you can add code snippets, see below:
+Também agrupei regras que compartilhavam características em comum, evitando duplicação desnecessária de código e tornando a manutenção do projeto mais simples.
+
+Por exemplo, a estrutura principal do componente utiliza HTML semântico:
 
 ```html
 <main class="container">
   <div class="card">
-    <img src="/images/image-qr-code.png" alt="Qr-code image" />
-    <h1>Improve your front-end skills by building projects</h1>
+    <img src="/images/image-qr-code.png" alt="Imagem do QR Code" />
+    <h1>Melhore suas habilidades de front-end desenvolvendo projetos</h1>
     <p>
-      Scan the QR code to visit Frontend Mentor and take your coding skills to
-      the next level
+      Escaneie o QR Code para visitar o Frontend Mentor e levar suas habilidades
+      de desenvolvimento para o próximo nível.
     </p>
   </div>
 </main>
 ```
+
+As principais cores utilizadas no projeto foram centralizadas em variáveis CSS:
 
 ```css
 html {
@@ -137,116 +143,140 @@ html {
 }
 ```
 
----
-
-### Continued development
-
-I plan to keep challenging myself by not only continuing my studies but also putting all the acquired knowledge into practice, especially in more complex projects. I might even consider using a CSS superset along the way.
+Essa abordagem facilita a manutenção e permite alterar a identidade visual do projeto de forma centralizada.
 
 ---
 
-## Architecture & File Structure
+### Desenvolvimento Contínuo
+
+Pretendo continuar colocando em prática os conhecimentos adquiridos por meio de projetos cada vez mais complexos.
+
+Além de continuar meus estudos, quero explorar novas ferramentas e abordagens de desenvolvimento, incluindo a possibilidade de utilizar pré-processadores ou outras tecnologias que possam tornar meus projetos mais organizados e escaláveis.
+
+---
+
+## Arquitetura e Estrutura de Arquivos
 
 ```bash
 qrcode-challenge/
-├── .gitignore                                 # Regras de exclusão de arquivos de design e SO (.DS_Store, *.fig)
+├── .gitignore                                 # Regras de exclusão de arquivos de design e do sistema operacional
 ├── README.md                                  # Documentação técnica do projeto
 ├── index.html                                 # Estrutura semântica HTML5 com tags acessíveis
 ├── css/
 │   └── style.css                              # Reset de margens, variáveis HSL, Flexbox e tipografia
-├── design/                                    # Screenshots de comparação de fidelidade visual
+├── design/                                    # Capturas utilizadas para comparação da fidelidade visual
 │   ├── screenshot-desktop.JPG                 # Captura do componente na resolução de 1440px
 │   └── screenshot.JPG                         # Captura do componente na resolução mobile de 375px
-└── images/                                    # Ativos visuais utilizados na aplicação
-    ├── favicon-32x32.png                      # Favicon da aba do navegador
-    └── image-qr-code.png                      # Imagem oficial do QR code para o Frontend Mentor
+└── images/                                    # Recursos visuais utilizados na aplicação
+    ├── favicon-32x32.png                      # Ícone da aba do navegador
+    └── image-qr-code.png                      # Imagem oficial do QR Code fornecida pelo Frontend Mentor
 ```
 
 ---
 
-## Component Workflow
+## Fluxo do Componente
 
 ```mermaid
 flowchart TD
-    A([Navegador carrega index.html]) --> B[Importa fonte Outfit do Google Fonts via @import]
-    B --> C[Aplica html font-size: 62.5% para escala rem 10px]
-    C --> D[Carrega variáveis CSS em :root: white, light-gray, grayish-blue, dark-blue]
-    D --> E[body renderiza fundo com var --light-gray]
-    E --> F[main.container: display flex, centralização vertical e horizontal]
-    F --> G[div.card: largura fixa 30rem, padding 1.3rem, cantos arredondados 1.5rem]
-    G --> H[img: renderiza QR Code com border-radius 1rem]
-    G --> I[h1: título em var --dark-blue 2rem bold]
-    G --> J[p: descrição em var --grayish-blue 1.4rem regular]
-    J --> K[footer.attribution: créditos de autoria centralizados]
+    A([Navegador carrega index.html]) --> B[Importa a fonte Outfit do Google Fonts via @import]
+    B --> C[Aplica html font-size: 62.5% para utilizar escala rem de 10px]
+    C --> D[Carrega variáveis CSS em :root: white, light-gray, grayish-blue e dark-blue]
+    D --> E[body renderiza o fundo utilizando var --light-gray]
+    E --> F[main.container utiliza Flexbox para centralização vertical e horizontal]
+    F --> G[div.card define largura de 30rem, padding de 1.3rem e cantos arredondados de 1.5rem]
+    G --> H[img renderiza o QR Code com border-radius de 1rem]
+    G --> I[h1 renderiza o título utilizando var --dark-blue, 2rem e peso 700]
+    G --> J[p renderiza a descrição utilizando var --grayish-blue, 1.4rem e peso 400]
+    J --> K[footer.attribution exibe os créditos de autoria centralizados]
 ```
 
 ---
 
-## How to Run Locally
+## Como Executar Localmente
 
-### Prerequisites
-* Any modern web browser (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari).
-* [Git](https://git-scm.com/) installed.
+### Pré-requisitos
 
-### Steps
+* Um navegador moderno, como Google Chrome, Mozilla Firefox, Microsoft Edge ou Safari.
+* [Git](https://git-scm.com/) instalado.
 
-1. Clone the repository:
+### Passo a Passo
+
+**1. Clone o repositório:**
+
 ```bash
 git clone https://github.com/erickystn/qrcode-challenge.git
 ```
 
-2. Enter the project folder:
+**2. Acesse a pasta do projeto:**
+
 ```bash
 cd qrcode-challenge
 ```
 
-3. Open `index.html` in your browser:
-```bash
-# On Linux / macOS
-open index.html
+**3. Abra o arquivo `index.html` no navegador:**
 
-# On Windows
+No Linux/macOS:
+
+```bash
+open index.html
+```
+
+No Windows:
+
+```bash
 start index.html
 ```
-*Or open the folder in VS Code and use the **Live Server** extension.*
+
+Também é possível abrir a pasta do projeto no VS Code e utilizar a extensão **Live Server** para executar a aplicação com recarregamento automático.
 
 ---
 
 ## Roadmap
 
-- [ ] **QR Code Interativo:** Permitir que o usuário insira qualquer URL personalizada para gerar um QR Code em tempo real via JavaScript.
-- [ ] **Modo Escuro (Dark Mode):** Alternador de tema aproveitando as variáveis CSS em `:root`.
-- [ ] **Efeito Hover no Card:** Adicionar transição sutil com elevação de sombra (`box-shadow` e `transform: translateY`).
-- [ ] **Botão de Download:** Adicionar botão para baixar o QR Code gerado em formato PNG ou SVG.
+* [ ] **QR Code Interativo:** Permitir que o usuário insira uma URL personalizada para gerar um QR Code em tempo real utilizando JavaScript.
+* [ ] **Modo Escuro:** Adicionar um alternador de tema utilizando as variáveis CSS definidas em `:root`.
+* [ ] **Efeito Hover no Card:** Adicionar uma transição sutil com elevação utilizando `box-shadow` e `transform: translateY`.
+* [ ] **Botão de Download:** Permitir o download do QR Code gerado nos formatos PNG ou SVG.
 
 ---
 
-## Contributing
+## Contribuição
 
-1. Fork the project.
-2. Create your feature branch:
-   ```bash
-   git checkout -b feature/amazing-feature
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "feat: add interactive QR code generator"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature/amazing-feature
-   ```
-5. Open a Pull Request.
+Contribuições são bem-vindas.
+
+**1. Faça um fork do projeto.**
+
+**2. Crie uma branch para sua funcionalidade:**
+
+```bash
+git checkout -b feature/nova-funcionalidade
+```
+
+**3. Faça o commit das alterações:**
+
+```bash
+git commit -m "feat: adiciona gerador de QR Code interativo"
+```
+
+**4. Envie a branch para o repositório:**
+
+```bash
+git push origin feature/nova-funcionalidade
+```
+
+**5. Abra um Pull Request.**
 
 ---
 
-## Author
+## Autor
 
-- Website - [Ericky GitHub](https://github.com/erickystn/)
-- Frontend Mentor - [@erickystn](https://www.frontendmentor.io/profile/erickystn)
+* **GitHub:** [Ericky GitHub](https://github.com/erickystn/)
+* **Frontend Mentor:** [@erickystn](https://www.frontendmentor.io/profile/erickystn)
 
 ---
 
-## License
+## Licença
 
-This project is licensed under the **MIT License**. Feel free to use this code for educational and portfolio purposes.
+Este projeto está licenciado sob a **Licença MIT**.
+
+O código pode ser utilizado, modificado e distribuído livremente, inclusive para fins educacionais e de portfólio, de acordo com os termos da licença.
